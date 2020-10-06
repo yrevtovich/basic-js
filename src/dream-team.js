@@ -1,6 +1,7 @@
 module.exports = function createDreamTeam(members) {
   if (Array.isArray(members)) {
     let firstLetters = [];
+    
     members.forEach( item => {      
       if (typeof item === 'string') {
         let name = item.replace(/\s/g, '');

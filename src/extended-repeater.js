@@ -37,7 +37,7 @@ module.exports = function repeater(str, options) {
             }
         }
     }
-    // console.log('result', resultStr)
+    
     return resultStr;
 };
   
